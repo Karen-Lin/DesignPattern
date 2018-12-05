@@ -1,6 +1,7 @@
 package pattern
 
 import pattern.builder.People
+import pattern.facade.ShapeFacade
 
 fun main(args: Array<String>) {
 
@@ -13,5 +14,9 @@ fun main(args: Array<String>) {
             .address("Taipei Neihu")
             .phone("0988333333")
             .build()
+
+    /** Facade pattern **/
+    val shapeFacade = ShapeFacade()
+    shapeFacade.draw()
 
 }
