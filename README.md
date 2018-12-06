@@ -19,7 +19,7 @@
 
 #### Creational
 *  Abstract Factory
-*  Builder
+*  ~Builder~
 *  Factory Method
 *  Prototype
 *  Singleton
@@ -29,7 +29,7 @@
 *  Bridge
 *  Composite
 *  Decorator
-*  Facade
+*  ~Facade~
 *  Flyweight
 *  Proxy
 
