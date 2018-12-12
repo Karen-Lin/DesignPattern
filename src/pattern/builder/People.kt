@@ -5,9 +5,9 @@ class People private constructor() {
 
     val firstName: String // Required
     val lastName: String // Required
-    val nickName: String? // Optional
-    val phone: String? // Optional
-    val address: String? // Optional
+    val nickName: String? = null // Optional
+    val phone: String? = null // Optional
+    val address: String? = null // Optional
 
     init {
         // TODO Init people's variable with builder
@@ -15,6 +15,5 @@ class People private constructor() {
 
     // TODO Implement PeopleBuilder, firstName and lastName are required
     class PeopleBuilder {
-
     }
 }
