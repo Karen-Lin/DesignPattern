@@ -2,6 +2,9 @@ package pattern
 
 import pattern.builder.People
 import pattern.facade.ShapeFacade
+import pattern.factory.HamburgerFactory
+import pattern.observer.BeefHamburgerSet
+import pattern.observer.UserEvent
 
 fun main(args: Array<String>) {
 
@@ -19,4 +22,18 @@ fun main(args: Array<String>) {
     val shapeFacade = ShapeFacade()
     shapeFacade.draw()
 
+    /** Observer pattern **/
+    BeefHamburgerSet().apply {
+        order(object : UserEvent {
+            override fun finish() {
+                println("拿到漢堡了 ya")
+            }
+        })
+    }
+
+    /** Factory pattern **/
+    HamburgerFactory().getBeefHamburger().also {
+        it.print()
+    }
+    HamburgerFactory().getPorkHamburger().print()
 }
