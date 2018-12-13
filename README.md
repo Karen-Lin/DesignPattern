@@ -18,9 +18,9 @@
 ### Pattern List:
 
 #### Creational
-*  Abstract Factory
+*  Abstract Factory ` 留給凱倫 `
 *  ~Builder~
-*  Factory Method
+*  ~Factory Method~
 *  Prototype
 *  Singleton
 
@@ -41,7 +41,7 @@
 *  Mediator
 *  Memento
 *  State
-*  Observer
+*  ~Observer~
 *  Strategy
 *  Template method
 *  Visitor
