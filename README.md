@@ -22,13 +22,13 @@
 *  ~Builder~
 *  ~Factory Method~
 *  Prototype
-*  Singleton
+*  ~Singleton~
 
 #### Structural
 *  Adapter
 *  Bridge
 *  Composite
-*  Decorator
+*  ~Decorator~
 *  ~Facade~
 *  Flyweight
 *  Proxy
