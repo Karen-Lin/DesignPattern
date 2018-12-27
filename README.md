@@ -25,7 +25,7 @@
 *  ~Singleton~
 
 #### Structural
-*  Adapter
+*  ~Adapter~
 *  Bridge
 *  Composite
 *  ~Decorator~
@@ -42,6 +42,6 @@
 *  Memento
 *  State
 *  ~Observer~
-*  Strategy
+*  ~Strategy~
 *  Template method
 *  Visitor
