@@ -2,7 +2,7 @@ package pattern.prototype
 
 
 // TODO implement Cloneable for Medicines
-data class Medicines constructor(var medicineList: MutableList<String> = ArrayList()) {
+data class Medicines constructor(var medicineList: MutableList<String> = ArrayList()): Cloneable {
 
     init {
         loadDataFromDB()
@@ -19,4 +19,17 @@ data class Medicines constructor(var medicineList: MutableList<String> = ArrayLi
         medicineList.add(medicine)
     }
 
+    public override fun clone(): Any {
+        var medicine = super.clone() as Medicines
+        var arrayList = ArrayList<String>()
+        medicineList.forEach {
+            arrayList.add(it)
+        }
+        medicine.medicineList = arrayList
+        return medicine
+    }
+
+    override fun hashCode(): Int {
+        return 31 * super.hashCode() + medicineList!!.hashCode()
+    }
 }
