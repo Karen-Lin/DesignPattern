@@ -21,7 +21,7 @@
 *  Abstract Factory ` 留給凱倫 `
 *  ~Builder~
 *  ~Factory Method~
-*  Prototype
+*  ~Prototype~
 *  ~Singleton~
 
 #### Structural
@@ -40,7 +40,7 @@
 *  Iterator
 *  Mediator
 *  Memento
-*  State
+*  ~State~
 *  ~Observer~
 *  ~Strategy~
 *  Template method
