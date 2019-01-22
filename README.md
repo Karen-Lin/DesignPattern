@@ -26,7 +26,7 @@
 
 #### Structural
 *  ~Adapter~
-*  Bridge
+*  ~Bridge~
 *  Composite
 *  ~Decorator~
 *  ~Facade~
@@ -35,7 +35,7 @@
 
 #### Behavioral
 *  Chain of responsibility
-*  Command
+*  ~Command~
 *  Interpreter
 *  Iterator
 *  Mediator
