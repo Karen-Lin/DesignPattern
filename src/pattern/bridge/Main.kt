@@ -11,5 +11,5 @@ fun main(args: Array<String>) {
     control.forEach { it.on() }
     control.forEach { it.off() }
 
-    // 橋接模式把抽象和實作分開，如此他們兩個可以互相獨立
+    // 把抽象和實作分開
 }
