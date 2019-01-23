@@ -1,18 +1,18 @@
 package pattern.bridge
 
-import pattern.bridge.brand.ButtonTv
-import pattern.bridge.brand.VoiceTv
-import pattern.bridge.control.RemoteControl
-import pattern.bridge.control.SamsungControl
-import pattern.bridge.control.SonyControl
+import pattern.bridge.implementor.ButtonControlImpl
+import pattern.bridge.implementor.VoiceControlImpl
+import pattern.bridge.abstraction.RemoteControl
+import pattern.bridge.abstraction.SamsungControl
+import pattern.bridge.abstraction.SonyControl
 
 fun main(args: Array<String>) {
 
     val control = ArrayList<RemoteControl>()
-    control.add(SonyControl(ButtonTv()))
-    control.add(SonyControl(VoiceTv()))
-    control.add(SamsungControl(ButtonTv()))
-    control.add(SamsungControl(VoiceTv()))
+    control.add(SonyControl(ButtonControlImpl()))
+    control.add(SonyControl(VoiceControlImpl()))
+    control.add(SamsungControl(ButtonControlImpl()))
+    control.add(SamsungControl(VoiceControlImpl()))
 
     control.forEach { it.on() }
     control.forEach { it.off() }
