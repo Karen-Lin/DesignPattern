@@ -2,11 +2,11 @@ package pattern.bridge
 
 class SamsungVoiceControl : SamsungControl() {
 
-    override fun samsungOn() {
+    override fun samsungTurnOn() {
         println("$tvName 聲控打開")
     }
 
-    override fun samsungOff() {
+    override fun samsungTurnOff() {
         println("$tvName 聲控關閉")
     }
 

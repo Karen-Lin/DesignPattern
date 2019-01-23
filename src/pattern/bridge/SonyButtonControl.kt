@@ -2,11 +2,11 @@ package pattern.bridge
 
 class SonyButtonControl : SonyControl() {
 
-    override fun sonyOn() {
+    override fun sonyTurnOn() {
         println("$tvName 按鈕打開")
     }
 
-    override fun sonyOff() {
+    override fun sonyTurnOff() {
         println("$tvName 按鈕關閉")
     }
 

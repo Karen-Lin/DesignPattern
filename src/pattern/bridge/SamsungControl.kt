@@ -3,14 +3,14 @@ package pattern.bridge
 abstract class SamsungControl : RemoteControl {
     override val tvName: String = "samsung"
 
-    abstract fun samsungOn()
-    abstract fun samsungOff()
+    abstract fun samsungTurnOn()
+    abstract fun samsungTurnOff()
 
     override fun on() {
-        samsungOn()
+        samsungTurnOn()
     }
 
     override fun off() {
-        samsungOff()
+        samsungTurnOff()
     }
 }

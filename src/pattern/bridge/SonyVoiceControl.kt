@@ -2,11 +2,11 @@ package pattern.bridge
 
 class SonyVoiceControl : SonyControl() {
 
-    override fun sonyOn() {
+    override fun sonyTurnOn() {
         println("$tvName 聲控打開")
     }
 
-    override fun sonyOff() {
+    override fun sonyTurnOff() {
         println("$tvName 聲控關閉")
     }
 
