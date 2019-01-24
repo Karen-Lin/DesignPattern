@@ -5,4 +5,6 @@ package pattern.bridge.abstraction
 // tvName , on() , off()
 abstract class RemoteControl {
     abstract val tvName: String
+    abstract fun on()
+    abstract fun off()
 }
