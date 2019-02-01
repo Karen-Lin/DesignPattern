@@ -34,7 +34,7 @@
 *  Proxy
 
 #### Behavioral
-*  Chain of responsibility
+*  ~Chain of responsibility~
 *  ~Command~
 *  Interpreter
 *  Iterator
@@ -43,5 +43,5 @@
 *  ~State~
 *  ~Observer~
 *  ~Strategy~
-*  Template method
+*  ~Template method~
 *  Visitor
