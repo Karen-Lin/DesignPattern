@@ -38,10 +38,10 @@
 *  ~Command~
 *  Interpreter
 *  Iterator
-*  Mediator
+*  ~Mediator~
 *  Memento
 *  ~State~
 *  ~Observer~
 *  ~Strategy~
 *  ~Template method~
-*  Visitor
+*  ~Visitor~
