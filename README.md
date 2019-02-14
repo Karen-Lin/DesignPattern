@@ -27,11 +27,11 @@
 #### Structural
 *  ~Adapter~
 *  ~Bridge~
-*  Composite
+*  ~Composite~
 *  ~Decorator~
 *  ~Facade~
 *  Flyweight
-*  Proxy
+*  ~Proxy~
 
 #### Behavioral
 *  ~Chain of responsibility~
