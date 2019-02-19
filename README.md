@@ -27,21 +27,21 @@
 #### Structural
 *  ~Adapter~
 *  ~Bridge~
-*  Composite
+*  ~Composite~
 *  ~Decorator~
 *  ~Facade~
 *  Flyweight
-*  Proxy
+*  ~Proxy~
 
 #### Behavioral
 *  ~Chain of responsibility~
 *  ~Command~
 *  Interpreter
 *  Iterator
-*  Mediator
+*  ~Mediator~
 *  Memento
 *  ~State~
 *  ~Observer~
 *  ~Strategy~
 *  ~Template method~
-*  Visitor
+*  ~Visitor~

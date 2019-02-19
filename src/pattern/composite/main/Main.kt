@@ -12,11 +12,11 @@ fun main(args: Array<String>) {
      *
     - All Menu
     - Noodles Menu
+        - [Beef Noodles]
     - Rice Menu
+        - [Chicken Rice]
     - Drink Menu
         - [Black Coffee]
-        - [Juice Milk]
-        - [Coke]
      **/
 
     val menu = CommonMenu("All Menu")
