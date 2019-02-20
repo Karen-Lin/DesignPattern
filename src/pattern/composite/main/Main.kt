@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
         - Beef Noodles
     - Rice Menu
         - Chicken Rice
-    - Meal Menu
+    - Drink Menu
         - Latte
         - Apple Juice
         - Coke
