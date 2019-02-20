@@ -24,5 +24,6 @@ class MealMediator {
 
     fun setTime(meal: Meal, time: Date): Boolean {
         //TODO Implement meal setting time logic
+        return false
     }
 }
