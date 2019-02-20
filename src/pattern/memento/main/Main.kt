@@ -9,7 +9,6 @@ fun main(args: Array<String>) {
 
     val maxCount = 10
     var currentCount = 0
-
     var player = Player("Amin")
     val game = Game()
 
@@ -31,7 +30,7 @@ fun main(args: Array<String>) {
 
     while (currentCount < maxCount) {
         player.money += game.go()
-        println("player.money: ${player.money}")
+        println("${player.name}[$currentCount]: ${player.money}")
 
         if (player.money > originator.money) {
             originator.set(player.money)
