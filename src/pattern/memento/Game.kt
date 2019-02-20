@@ -2,14 +2,15 @@ package pattern.memento
 
 import java.util.*
 
-class Game(private var player: Player) {
+class Game {
 
     private val random = Random()
-    fun go() {
-        if (random.nextInt(10) < 5) {
-            player.money -= 30
+
+    fun go(): Int {
+        return if (random.nextInt(10) < 5) {
+            -20
         } else {
-            player.money += 5
+            10
         }
     }
 }
