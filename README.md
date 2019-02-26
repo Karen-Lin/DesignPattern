@@ -30,16 +30,16 @@
 *  ~Composite~
 *  ~Decorator~
 *  ~Facade~
-*  Flyweight
+*  ~Flyweight~
 *  ~Proxy~
 
 #### Behavioral
 *  ~Chain of responsibility~
 *  ~Command~
-*  Interpreter
-*  Iterator
+*  ~Interpreter~
+*  ~Iterator~
 *  ~Mediator~
-*  Memento
+*  ~Memento~
 *  ~State~
 *  ~Observer~
 *  ~Strategy~
