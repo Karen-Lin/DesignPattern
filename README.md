@@ -18,7 +18,7 @@
 ### Pattern List:
 
 #### Creational
-*  Abstract Factory ` 留給凱倫 `
+*  ~Abstract Factory~
 *  ~Builder~
 *  ~Factory Method~
 *  ~Prototype~
